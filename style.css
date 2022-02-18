@@ -1,0 +1,32 @@
+h3 {
+    color: white;
+    background-color: #872d07;
+    width: 300px;
+    height: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+}
+
+.btn-success:hover {
+   color: white;
+   background-color: #872d07;
+   font-weight: bold;
+   width: 160px;
+   height: 40px;
+}
+
+canvas{
+    margin-top: 50px;
+    animation-name: color_changer;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes color_changer {
+    70%{box-shadow: 0 0 30px 30px #872d07;}
+    50%{box-shadow: 0 0 30px 30px #000000;}
+    25%{box-shadow: 0 0 30px 30px #ecdfd9;}
+}
